@@ -1,15 +1,15 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "../.."
 		}
 	],
 	"settings": {
-		"git.ignoreLimitWarning": true,
 		"files.associations": {
 			"bsp_keyfilter.h": "c",
-			"bsp_int.h": "c",
-			"bsp_key.h": "c"
+			"bsp_gpio.h": "c",
+			"bsp_uart.h": "c",
+			"stdio.h": "c"
 		}
 	}
 }
