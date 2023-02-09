@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"bsp_gpio.h": "c",
+			"bsp_icm20608.h": "c",
+			"bsp_spi.h": "c"
+		}
+	}
+}
