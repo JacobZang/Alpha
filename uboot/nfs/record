@@ -1,0 +1,15 @@
+When using nfs, need to change the version of NFS to V2.
+The default version is V3 or V4.
+
+sudo vim /etc/default/nfs-kernel-server
+
+"
+#RPCNFSDCOUNT=8
+RPCNFSDCOUNT="-V 2 8"
+
+#RPCMOUNTDOPTS="--manage-gids"
+RPCMOUNTDOPTS="-V 2 --manage-gids"
+
+#RPCSVCGSSDOPTS=""
+RPCSVCGSSDOPTS="--nfs-version 2,3,4 --debug --syslog"
+"
