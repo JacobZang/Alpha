@@ -59,7 +59,7 @@ int main(void)
 		printf("gyro z=%d\r\n", icm20608_dev.gyro_z_adc);
 		state = !state;
 		led_switch(LED0,state);
-		delayms(100);	/* 延时一秒 */
+		delayms(100);	/* 延时0.1秒 */
 	}
 
 	return 0;
