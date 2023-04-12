@@ -1,0 +1,1 @@
+cmd_/home/qybs/Alpha/driver/2_chrdevled/led.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/qybs/Alpha/driver/2_chrdevled/led.ko /home/qybs/Alpha/driver/2_chrdevled/led.o /home/qybs/Alpha/driver/2_chrdevled/led.mod.o

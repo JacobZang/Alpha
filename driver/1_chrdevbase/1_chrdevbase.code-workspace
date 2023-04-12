@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.map": "arm",
+			"kernel.h": "c",
+			"delay.h": "c",
+			"init.h": "c",
+			"ide.h": "c",
+			"module.h": "c"
+		}
+	}
+}
