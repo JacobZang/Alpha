@@ -1,0 +1,1 @@
+cmd_/home/qybs/Alpha/driver/4_dtsled/newchrdev.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/qybs/Alpha/driver/4_dtsled/newchrdev.ko /home/qybs/Alpha/driver/4_dtsled/newchrdev.o /home/qybs/Alpha/driver/4_dtsled/newchrdev.mod.o
